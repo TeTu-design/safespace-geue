@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt | GEÜ SafeSpace</title>
+  <meta name="description" content="Kontaktinformationen zu den Ansprechpersonen für Antidiskriminierung, Allies, Gleichstellung und Beratung am Gymnasium Essen-Überruhr.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav wrap">
+      <div class="brand">
+        <span class="logo">🎓</span>
+        <span>GEÜ - Schule mit Courage</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="geue.html">GEÜ</a></li>
+          <li><a href="massnahmen.html">Maßnahmen</a></li>
+          <li><a href="kontakt.html" class="active">Kontakt</a></li>
+          <li><a href="index.html#hilfe">Hilfe</a></li>
+          <li><a href="index.html#meldewege">Meldewege</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="kontakt">
+      <h1>Kontakt & Ansprechpartner*innen</h1>
+      <p>
+        Am Gymnasium Essen-Überruhr stehen verschiedene Ansprechpersonen für Fragen,
+        Unterstützung und vertrauliche Gespräche zur Verfügung.  
+        Auf dieser Seite finden Sie die wichtigsten Kontaktstellen rund um
+        <strong>Antidiskriminierung, Gleichstellung, Beratung und Schüler*innenbeteiligung.</strong>
+      </p>
+
+      <div class="grid cards">
+        <!-- Antidiskriminierungsbeauftragte -->
+        <article class="card">
+          <h2>Beauftragte für Antidiskriminierung</h2>
+          <p>
+            Unterstützen Schüler*innen, Eltern und Lehrkräfte bei Diskriminierungsvorfällen
+            und arbeiten eng mit dem Schulleitungsteam sowie externen Beratungsstellen zusammen.
+          </p>
+          <p><strong>E-Mail:</strong> antidiskriminierung@geue.nrw.schule</p>
+        </article>
+
+        <!-- Allies -->
+        <article class="card">
+          <h2>Projektgruppe Schule mit Courage</h2>
+          <p>
+            Die <strong>Allies</strong> sind Schüler*innen, die sich für ein respektvolles
+            Miteinander einsetzen und Mitschüler*innen unterstützen, die Diskriminierung
+            erleben oder beobachten. 
+          </p>
+          <p><strong>E-Mail:</strong> allies@geue.nrw.schule</p>
+        </article>
+
+        <!-- Gleichstellungsbeauftragte -->
+        <article class="card">
+          <h2>Beauftragte für Gleichstellung</h2>
+          <p>
+            Setzen sich für Chancengleichheit und die Stärkung der Rechte aller Geschlechter
+            ein. Ansprechpartner*innen für Fragen zu Gleichbehandlung und Diversität.
+          </p>
+          <p><strong>E-Mail:</strong> gleichstellung@geue.nrw.schule</p>
+        </article>
+
+        <!-- Schulsozialarbeiterin -->
+        <article class="card">
+          <h2>Schulsozialarbeiterin</h2>
+          <p>
+            Bietet vertrauliche Beratung bei persönlichen, schulischen oder familiären Themen.
+            Unterstützt Schüler*innen im Schulalltag und vermittelt bei Konflikten.
+          </p>
+          <p><strong>E-Mail:</strong> sozialarbeit@geue.nrw.schule</p>
+        </article>
+
+        <!-- Beratungslehrkräfte -->
+        <article class="card">
+          <h2>Beratungslehrkräfte</h2>
+          <p>
+            Begleiten Schüler*innen in schwierigen Lebenslagen, unterstützen bei Lernproblemen
+            und vermitteln bei Bedarf weitere Hilfsangebote.
+          </p>
+          <p><strong>E-Mail:</strong> beratung@geue.nrw.schule</p>
+        </article>
+      </div>
+    </section>
+  </main>
+    <section id="kontakt" aria-labelledby="kontakt-h2">
+  <h2 id="kontakt-h2">Kontakt / (anonyme) Meldung</h2>
+
+  <!-- Info-Box Anonym -->
+  <div class="info-box">
+    <strong>ℹ️ Hinweis:</strong>  
+    Du kannst den Vorfall <strong>anonym melden</strong>.  
+    Wenn du keine Kontaktangaben machst, bleibt deine Meldung anonym. <p class="help-text">
+  Für eine Rückmeldung oder genauere Klärung brauchen wir eine Kontaktangabe.
+  Anonyme Meldungen können wir nicht beantworten.
+</p>
+    <br><br>
+    Die Meldung wird <strong>ausschließlich vom Beratungsteam</strong> eingesehen
+    und <strong>nicht dauerhaft gespeichert</strong>.  
+  </div>
+
+  <!-- Meldungsboxen -->
+  <div id="success-message" class="message message-success">
+    ✔ Danke! Deine Meldung wurde erfolgreich übermittelt.
+  </div>
+
+  <div id="error-message" class="message message-error">
+    ❌ Es gab ein Problem beim Absenden. Bitte versuche es später erneut.
+  </div>
+
+  <form id="kontakt-form" action="https://formsubmit.co/teresa.tuncel@gmail.com" method="POST">
+
+    <input type="hidden" name="_subject" value="Neue Meldung über die Schul-Website">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+
+    <div class="row">
+      <div>
+        <label for="name">Name (optional)</label>
+        <input id="name" name="name" autocomplete="name" placeholder="Du kannst dieses Feld leer lassen">
+      </div>
+      <div>
+        <label for="email">E-Mail (optional)</label>
+        <input id="email" name="email" type="email" autocomplete="email"
+          placeholder="Nur ausfüllen, wenn du eine Rückmeldung möchtest">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="rolle">Ich bin *</label>
+        <select id="rolle" name="rolle" required>
+          <option value="">Bitte wählen …</option>
+          <option>Schüler*in</option>
+          <option>Elternteil</option>
+          <option>Lehrkraft</option>
+          <option>Sonstige*r</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="kategorie">Kategorie *</label>
+        <select id="kategorie" name="kategorie" required>
+          <option value="">Bitte wählen …</option>
+          <option>Rassismus</option>
+          <option>Sexismus</option>
+          <option>Queerfeindlichkeit</option>
+          <option>Antisemitismus</option>
+          <option>Mobbing / Hate Speech</option>
+          <option>Sonstiges</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label for="beschreibung">Beschreibung des Vorfalls *</label>
+      <textarea id="beschreibung" name="beschreibung" rows="5" required
+        placeholder="Was ist passiert? Wer war beteiligt? Wo und wann ist es passiert?"></textarea>
+    </div>
+
+    <div>
+      <label for="wuensche">Was wünschst du dir?</label>
+      <textarea id="wuensche" name="wuensche" rows="3"
+        placeholder="z. B. Gespräch, Schutzmaßnahme, Information, Unterstützung …"></textarea>
+    </div>
+
+    <button type="submit" id="kontakt-submit">Absenden</button>
+  </form>
+</section>
+
+
+ <footer>
+  <p>© 2025 Gymnasium Essen-Überruhr · 
+     <a href="impressum.html">Impressum</a> · 
+     <a href="datenschutz.html">Datenschutz</a>
+  </p>
+</footer>
+
+ <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('kontakt-form');
+  const successBox = document.getElementById('success-message');
+  const errorBox = document.getElementById('error-message');
+  const submitBtn = document.getElementById('kontakt-submit');
+
+  if (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Buttons & Meldungen zurücksetzen
+      submitBtn.disabled = true;
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = 'Senden …';
+      successBox.classList.remove('show');
+      errorBox.classList.remove('show');
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form)
+      })
+      .then(function () {
+        // Erfolg: Formular ausblenden, Meldung anzeigen
+        form.classList.add('hidden');
+        successBox.classList.add('show');
+        errorBox.classList.remove('show');
+
+        // zum Beginn des Kontaktbereichs scrollen
+        document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
+
+        // Formular nach 10 Sekunden wieder anzeigen & zurücksetzen
+        setTimeout(function () {
+          form.reset();
+          form.classList.remove('hidden');
+          successBox.classList.remove('show');
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        }, 10000);
+      })
+      .catch(function () {
+        // Fehler: Fehlerbox anzeigen, Formular sichtbar lassen
+        errorBox.classList.add('show');
+        successBox.classList.remove('show');
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+
+        document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  }
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('kontakt-form');
+  const successBox = document.getElementById('success-message');
+  const errorBox = document.getElementById('error-message');
+  const submitBtn = document.getElementById('kontakt-submit');
+
+  if (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault(); // Seite nicht verlassen
+
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Senden …';
+      successBox.classList.remove('show');
+      errorBox.classList.remove('show');
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form)
+      })
+      .then(function () {
+        form.reset();
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+        successBox.classList.add('show');
+        errorBox.classList.remove('show');
+        document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
+      })
+      .catch(function () {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+        errorBox.classList.add('show');
+        successBox.classList.remove('show');
+        document.getElementById('kontakt').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  }
+ // falls du mal ein Element mit id="year" nutzt:
+  const yearEl = document.getElementById('year');
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+});
+</script>
+
+
+</body>
+</html>
